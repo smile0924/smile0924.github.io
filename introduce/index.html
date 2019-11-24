@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<link rel="stylesheet" type="text/css" href="css/css.css">
 
 		<title> 怡涵的個人網站 </title>
@@ -10,53 +10,104 @@
 	</head>
 	<body background="img/background.png">
 		<div class="header">
-			<header>
-				<img class="logo" src="img/logo.png">
-								
-				
-			</header>
-			
+				<header>
+				<img class="logo" src="img/logo.png">	
+				</header><!-- /header -->	
 		</div>
+
+		
+				
 			<nav>
+				
+			
 				<ul>
 					<li ><a href="#myself"> 自我介紹 </a></li>
-		 			<li ><a href="#society"> 社團活動 </a></li>
-					<li ><a href="#work"> 打工經驗 </a></li>
+		 			<li ><a href="#club"> 社團活動 </a></li>
 					<li ><a href="#photo"> 生活照片 </a></li>
 				</ul>
 			</nav>
+
 			<div class="banner">
 				<img src="img/banner.png"/>
 			</div>
 
+			<a name="myself" id="myself">
 			<section>
 				<div >
+					<p>姓名：王怡涵</p>
 					<p>學校：中原大學</p>
 					<p>系級：資管二甲</p>
-					<p>姓名：王怡涵</p>
+
+					
+				</div>
+				
+				</section>
+				<aside>
 					<p>興趣：照鏡子、吃甜食</p>
-					<p>大學四年期許：</p>
-					<p>工作經驗：</p>
-				</div>
+					<p>大學四年期許：順利畢業，每天開開心心。</p>
+					
+				</aside>
+				</a>
 
-				<div class="club">
- 				<p>社團經驗</p>				
-				</div>
-			</section>
-			<aside>
-				<p>電話：0978033193</p>
-				<p>Line：Valeriesmile</p>
-				<p>地址：</p>
-				<p>E-mail：</p>
+			
 
 				
-				
-			</aside>
-		
 				<article>
+					<div class="phone">
+						<p>電話：0978033193</p>
+						<p>地址：新北市汐止區福德一路141巷11號2樓</p>
+						<p>E-mail：Valerie880924@gmail.com</p>
+						<p>IG：smile._09</p>
+					</div>
+							
+				<div class="club2">
+				<p >社團經驗</p> 
+				</div>
+				<a name="club" id="club">
+				<div class="club">
+					
+					<div class="container">
+						<div class="box">
+							<div class="imgBx">
+								<img class="club" src="img/club/club1.jpg"/>
+							</div>
+					
+							<div class="contentBx">
+								<h2>標題</h2>
+								<p>內容</p>
+							</div>
+							</div>
+							<div class="box">
+							<div class="imgBx">
+								<img src="img/club/club2.jpg"/>
+							</div>
+							
+							<div class="contentBx">
+								<h2>標題</h2>
+								<p>內容</p>
+							</div>
+							</div>
+							<div class="box">
+							<div class="imgBx">
+								<img src="img/club/club3.jpg"/>
+							</div>
+							<div class="contentBx">
+								<h2>標題</h2>
+								<p>內容</p>
+							</div>
+						</div>
+							
+						</div>	
+					</div>
+
+					
+
+				</a>
+		
+
 				<a name="photo" id="photo">
 					<div class="photo">
-						<h2 style="margin-bottom: 30px;">生活照片</h2>
+						<h2 >生活照片</h2>
 						<a target="_parent" href="img/photo/pic9.jpg">
 							<img class="pic" src="img/photo/pic9.jpg" alt="" title="永安漁港";>
 						</a>
@@ -85,16 +136,15 @@
 				</a>		
 			</article>
 
-		
 
 			<button onclick="topFunction()" id="gototop" title="">Top</button>
 			<script>
 			window.onscroll = function() {scrollFunction()};
 			function scrollFunction() {
 			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			document.getElementById("myBtn").style.display = "block";
+			document.getElementById("top").style.display = "block";
 			} else {
-			document.getElementById("myBtn").style.display = "none";
+			document.getElementById("top").style.display = "none";
 			}
 			}
 			function topFunction() {
