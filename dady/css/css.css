@@ -3,6 +3,82 @@
             display: none;
             list-style-type: disc; /* 保留黑點 */
         }
+
+        #navbar {
+            display: none; /* 這裡改為隱藏 */
+            height: 100vh;
+            width: 250px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background-color: #333;
+            overflow-x: hidden;
+            padding-top: 20px;
+            z-index: 1; /* 讓 Navbar 在最上層 */
+        }
+
+        #navbar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        #navbar a:hover {
+            color: #f1f1f1;
+        }
+        .closeButton {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            color: #818181;
+            transition: 0.3s;
+        }
+
+        .closeButton:hover {
+            color: #f1f1f1;
+        }
+
+        .content {
+            margin-left: 0; /* 讓內容預設不被遮擋 */
+            padding: 16px;
+        }
+
+        #toggleButton {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            /*z-index: 2; /* 置於 Navbar 之上 */
+        }
+
+        @media screen and (max-width: 600px) {
+            #navbar {
+                width: 100%;
+                padding-top: 15px;
+                height: auto;
+            }
+
+            #navbar a {
+                float: left;
+                width: 100%;
+                text-align: center;
+            }
+
+            .content {
+                margin-left: 0;
+            }
+        }
+        
         header {
             background-color: #F9E79F; /* 黃色 */
             padding: 8px 100px; /* 上下 padding 為 20px，左右為 0 */
