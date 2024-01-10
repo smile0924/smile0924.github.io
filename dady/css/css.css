@@ -1,0 +1,81 @@
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #A9CCE3; /* 藍色 */
+            color: #34495E; /* 灰色 */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #F9E79F; /* 黃色 */
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .shop-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .shop-info img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer; /* 加入 cursor: pointer; 讓滑鼠變成手型，顯示可點擊 */
+            margin-right: 50px; /* 設定右邊的間距為50px */
+        }
+
+        .contact-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .contact-buttons a {
+            display: inline-block;
+            padding: 10px;
+            background-color: #3498DB; /* 藍色 */
+            color: #FFFFFF; /* 白色 */
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .contact-buttons a:hover {
+            background-color: #2E86C1; /* 深藍色 */
+        }
+
+        .product-image {
+            margin-top: 20px;
+        }
+
+        /* 更新的部分 */
+        .product-image a {
+            display: inline-block;
+            margin-right: 50px; /* 設定右邊的間距為50px */
+            margin-bottom: 20px; /* 設定下邊的間距為20px */
+            width: 200px; /* 設定寬度為200像素 */
+            height: auto;
+        }
+
+        .product-image a img {
+            width: 100%; /* 使圖片充滿連結區域 */
+            border-radius: 5px;
+        }
+
+        /* 新增的部分 */
+        .product-image-60 a,
+        .product-image-70 a,
+        .product-image-80 a {
+            margin-right: 50px; /* 設定右邊的間距為50px */
+            margin-bottom: 20px; /* 設定下邊的間距為20px */
+            width: 200px; /* 設定寬度為200像素 */
+            height: auto;
+        }
