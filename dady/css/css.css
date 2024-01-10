@@ -1,23 +1,36 @@
 
-
+        .displaydot {
+            display: none;
+            list-style-type: disc; /* 保留黑點 */
+        }
+        header {
+            background-color: #F9E79F; /* 黃色 */
+            padding: 8px 100px; /* 上下 padding 為 20px，左右為 0 */
+            text-align: center;
+            
+            
+        }
 
         body {
             font-family: Arial, sans-serif;
             background-color: #A9CCE3; /* 藍色 */
-            color: #34495E; /* 灰色 */
+            color: #202c38; /* 灰色 */
             margin: 0;
             padding: 0;
-        }
-
-        header {
-            background-color: #F9E79F; /* 黃色 */
-            padding: 10px;
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
         }
 
         main {
-            padding: 20px;
+            width: 100%;
+            max-width: 800px; /* 設定最大寬度 */
+            margin-top: 20px; /* 設定上邊的間距 */
         }
+
+
+
 
         .shop-info {
             display: flex;
@@ -35,7 +48,7 @@
 
         .contact-buttons {
             display: flex;
-            gap: 10px;
+            gap: 20px;
             margin-top: 10px;
         }
 
