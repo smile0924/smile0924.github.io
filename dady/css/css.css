@@ -1,7 +1,6 @@
 
         .displaydot {
-            display: none;
-            list-style-type: disc; /* 保留黑點 */
+            list-style-type: none; /* 保留黑點 */
         }
 
         #navbar {
