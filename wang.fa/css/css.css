@@ -1,0 +1,45 @@
+
+.displaydot {
+    list-style-type: none; 
+}
+
+.product-image {
+    margin-top: 20px;
+}
+
+.product-image a {
+    display: inline-block;
+    margin-right: 50px; /* 設定右邊的間距為50px */
+    margin-bottom: 20px; /* 設定下邊的間距為20px */
+    width: 200px; /* 設定寬度為200像素 */
+    height: auto;
+}
+
+.product-image a img {
+    width: 100%; /* 使圖片充滿連結區域 */
+    border-radius: 5px;
+}
+
+/* 新增的部分 */
+.product-image-60 a,
+.product-image-70 a,
+.product-image-80 a {
+    margin-right: 50px; /* 設定右邊的間距為50px */
+    margin-bottom: 20px; /* 設定下邊的間距為20px */
+    width: 200px; /* 設定寬度為200像素 */
+    height: auto;
+}
+.card {
+    width: 250px; /* 設定寬度為200像素 */
+    height: auto;
+    margin-right: 100px; /* 設定右邊的間距為50px */
+    margin-bottom: 30px; /* 設定下邊的間距為20px */
+}
+.top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;    
+    cursor: pointer;
+}
